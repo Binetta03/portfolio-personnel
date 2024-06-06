@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+/*body*/
+.nav_bar{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+nav{
+    margin-left: 380px;
+}
+nav,ul,.list{
+    display: flex;
+    align-items: center;
+}
+ul,.list,a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin-left: 20px;
+}
+h2{
+    font-family: harrington;
+    margin-left: 50px;
+}
+span{
+    color: #ff9c1a;
+
+}
+a:hover{
+    color: #ff9c1a;
+}
+/*fin header*/
+.image{
+    width: 300px;
+    height: 50vh;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    font-size: 18px;
+}
+#propos{
+    text-align: left;
+}
+.about_img img{
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 0 0 50px #ff9c1a;
+}
+/*fin section about*/
+.projet{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin: 90px;
+    color: black;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+.content_projet{
+    text-align: center;
+    background-color: #ff9c1a;
+    width: 450px;
+    border-radius: 20px;
+}
+.content_Compétences{
+    background-color: #ff9c1a;
+    border-radius: 20px;
+    width: 450px;
+}
+ol,li{
+    color: black;
+    
+}
+/*fin de la section projet et compétence*/
+
+.contact{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    position: relative;
+    width: 450px;
+    margin-left: 400px;
+}
+form{
+    margin-left: 30px;
+    padding: 20px;
+}
+h3{
+    color: #ff9c1a;
+    text-align: center;
+    font-size: 25px;
+}
+input{
+    width: 350px;
+    height: 3vh;
+}
+/*fin de le section contact*/
+
+footer{
+    background-color: #ff9c1a;
+    color:black;
+    position: relative;
+    top: 50px;
+}
+.content_footer{
+    text-align: center;
+}
+.copyright{
+    padding: 5px;
+}
+/*fin footer*/
